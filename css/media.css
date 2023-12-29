@@ -1,0 +1,485 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+	.category_item{
+		max-height: 360px;
+		max-width: 364px;
+		height: 360px;
+	}
+	.category_item img{
+		max-width: 210px;
+	}
+	.section-full-background{
+		min-width: 520px;
+	}
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+	header .h_widgets_contact + *{
+		margin-left: 14px;
+	}
+	header .h_widgets .logo{
+		padding-right: 16px;
+    margin-right: 16px;
+	}
+	header .h_widgets nav > ul > li + *{
+		margin-left: 17px;
+	}
+	.h-widget .btn{
+		padding: 8px 10px;
+	}
+	aside > *{
+		grid-template-columns: repeat(5, 1fr);
+	}
+
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	.product_meta{
+		margin-top: 30px;
+	}
+	.product_meta h1{
+		margin-bottom: 12px;
+	}
+	.page_filters_list {
+    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+	.union::before,.section-before::after{
+		content: none;
+	}
+	div.work_card a{
+		margin-top: 12px;
+	}
+	.page-content,.padding-large,.section-center{
+		padding:	120px 0 64px 0;
+	}
+	.section-center .section-title,.section-center .text-wiget-page h2.section-title{
+		margin-bottom: 16px;
+	}
+	.section-center .text-widget{
+		margin: 15px 0;
+	}
+	.contact_list_item .three{
+		font-size: 18px;
+	}
+	.contact_list_item .contact_meta{
+		margin: 10px 0;
+	}
+	.contact_list_item{
+		padding: 30px 0;
+	}
+	.map{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.map iframe{
+		width: 100%;
+	}
+	.f_widget .h_widgets_contact {
+    width: 65%;
+		padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.f_widget .logo{
+	width: 65%;
+}
+	.eternal_reviews{
+		padding: 24px 0;
+	}
+	.eternal_reviews_item img{
+		max-width: 84px;
+		height: 24px;
+	}
+	.eternal_reviews_item .review_meta span{
+		font-size: 12px;
+		text-align: center;
+	}
+	.eternal_reviews > div:first-child{
+		padding-right: 6px;
+	}
+	.eternal_reviews > div:last-child{
+		padding-left: 6px;
+	}
+	.review_meta .one{
+		margin: 4px 0;
+	}
+	.eternal_reviews_item img{
+		margin-bottom: 0;
+	}
+	.service_card h4,.count_block_item h4,.count_block_item span{
+		font-size: 14px;
+	}
+	.faq_item div.active::after{
+		content: none;
+	}
+	.faq_item div{
+		font-size: 14px;
+		padding-bottom: 16px;
+		padding-top: 16px;
+	}
+	.faq_item p{
+		font-size: 12px;
+		margin-bottom: 16px;
+	}
+	.count_block_item p{
+		font-size: 12px;
+	}
+	.testimonial_card{
+		padding: 24px;
+	}
+	.testimonial_card div{
+		font-size: 16px;
+	}
+	.testimonial_card p{
+		font-size: 14px;
+	}
+	.margin-sm-none{
+		margin-left: -14px;
+		margin-right: -14px;
+	}
+	.md-text-left{
+		text-align: left;
+	}
+	.mb-sm-16,.section-title.mb-sm-16{
+		margin-bottom: 16px;
+	}
+	.alt-form .section-title{
+		margin-bottom: 0;
+	}
+	.alt-form p{
+		margin-bottom: 32px;
+	}
+	.alt-before::before{
+		background: url('/images/union-alt-before-m.svg') no-repeat top left;
+    background-size: 166px;
+	}
+	.alt-before::after{
+		content: none;
+	}
+	.quote{
+		font-size: 18px;
+	}
+	.section-full-background{
+		position: relative;
+		min-width: 100%;
+		min-height: 360px;
+		margin-top: 48px;
+	}
+	.section-full-background-large{
+		margin-top: 20px;
+	}
+	.section-title-alt{
+		font-size: 20px;
+	}
+	.form p{
+		font-size: 12px;
+	}
+	header{
+		position: fixed;
+		width: 100%;
+		padding: 8px 0;
+		z-index: 99;
+	}
+	header .h_widgets .logo::before{
+		content: none;
+	}
+	header .h_widgets .logo{
+		padding: 0;
+		margin: 0;
+	}
+	header nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    right: 0;
+    overflow: scroll;
+    padding-top: 104px;
+    opacity: 0;
+		visibility: hidden;
+		padding-bottom: 40px;
+    z-index: -1;
+		background: var(--dark);
+		padding: 90px 0.75rem 19px 0.75rem;
+	}
+	header nav.active {
+    opacity: 1;
+		visibility: visible;
+	}
+	header nav ul{
+		flex-flow: column;
+		align-items: flex-start;
+	}
+	header nav ul li{
+		width: 100%;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+	}
+	header nav ul li a{
+		padding-bottom: 24px;
+		padding-top: 24px;
+		display: block;
+	}
+	header nav ul li.menu-item-has-children > a{
+		padding: 24px 26px 24px 0;
+	}
+	header nav ul li.menu-item-has-children a + .sub-menu{
+		height: 0;
+    visibility: hidden ;
+    opacity: 0 ;
+		position: relative;
+		padding: 0;
+		top: 0;
+		left: 0;
+	}
+	header nav ul li.menu-item-has-children a.active + .sub-menu{
+		height: 100%;
+		visibility: visible;
+		opacity: 1;
+		transition: var(--transition);
+		margin-bottom: 24px;
+	}
+	header nav ul li.menu-item-has-children a.active + .sub-menu li{
+		border-bottom: 0;
+	}
+	.menu-item-has-children ul {
+    opacity: 0;
+    visibility: hidden;
+    height: 0 ;
+	}
+	.menu-item-has-children.active ul {
+    opacity: 1;
+    visibility: visible;
+    height: 100% ;
+}
+	header .h_widgets nav > ul > li + *{
+		margin-left: 0;
+	}
+	aside > *{
+		grid-template-columns: repeat(4, 1fr);
+	}
+	aside{
+		z-index: 100;
+		padding-top: 90px;
+		height: 100%;
+		position: fixed;
+	}
+	.back-btn{
+		display: block;
+		position: absolute;
+		color: #fff;
+		top: 20px;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	.back-btn i{
+		margin-right: 10px;
+	}
+	.h-widget .btn{
+		margin-left: 0;
+		margin-top: 24px;
+		padding: 12px 16px;
+	}
+	header nav .h-widget{
+		margin-top: 24px;
+	}
+	.first_page{
+		padding: 210px 0 192px 0;
+		min-height: 640px;
+		background-position: right center;
+	}
+	.first_page_wrap h2{
+		font-size: 32px;
+		line-height: 28px;
+	}
+	.first_page_wrap p{
+		margin: 24px 0;
+	}
+	.section-title,.text-wiget-page h2.section-title{
+		margin-bottom: 32px;
+		font-size: 20px;
+	}
+	.text-wiget-page p{
+		font-size: 16px;
+	}
+	.padding-large .text-widget{
+		margin: 16px 0;
+	}
+	.text-widget-content{
+		font-size: 16px;
+	}
+	.page-map{
+		margin: 20px 0;
+	}
+	.video-bg{
+		min-height: 420px;
+	}
+	.team_card img,.work_card img{
+		margin-bottom: 12px;
+	}
+	.team_card p,.work_card p{
+		margin-top: 0;
+	}
+	section,.padding{
+		padding: 56px 0;
+	}
+	.service_card_icon,.service_card{
+		margin-bottom: 8px;
+	}
+	.service_card p{
+		margin-bottom: 0;
+	}
+	.works_item h4{
+		font-size: 14px;
+	}
+	.works_item + *{
+		margin-top: 24px;
+	}
+	.form p{
+		margin-top: 16px;
+	}
+	.bg-after::after{
+		content: none;
+	}
+	.bg-after::before{
+		background-image: url('/images/union-bg-m.svg');
+		background-position: top left;
+	}
+	.social ul{
+		margin-top: 16px;
+	}
+	.f_widget ul li{
+		margin-top: 8px;
+	}
+	.padding-large::after{
+		content: none;
+	}
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+	aside > *{
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.fact_card .one{
+		font-size: 38px;
+	}
+	.certificate img{
+		max-height: 275px;
+	}
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+	.popup .popup-dialog .popup-wrap {
+    box-shadow: none;
+    border: none;
+    position: fixed;
+    justify-content: center;
+		padding: 20px;
+		height: 100%;
+}
+.btn-close{
+	right: 0;
+}
+.popup {
+	background: #fff;
+}
+	.product-buy a + *{
+		margin-left: 0;
+		margin-top: 8px;
+	}
+	.product_image_outer{
+		min-height: 390px;
+	}
+	.product_image_outer img{
+		min-height: 340px;
+	}
+	.project_slide img{
+		height: 152px;
+	}
+	aside > *{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.first_page_wrap h2{
+		font-size: 20px;
+	}
+	.first_page_wrap p{
+		font-size: 16px;
+	}
+	.category_item{
+		max-height: 152px;
+		max-width: 100%;
+		height: 152px;
+		padding: 0;
+		justify-content: center;
+	}
+	.category_item img{
+		max-width: 92px;
+	}
+	.category_item span{
+		font-size: 14px;
+		bottom: -36px;
+		position: absolute;
+	}
+	.f_widget ul li a{
+		font-size: 12px;
+	}
+	.f_widget h4{
+		font-size: 14px;
+	}
+	.f_widget .h_widgets_contact a{
+		font-size: 16px;
+	}
+	.f_widget .btn{
+		font-size: 12px;
+	}
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+	.lg-pr-20{
+		padding-right: 20px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}

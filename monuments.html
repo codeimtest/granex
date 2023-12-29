@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Simple Starter</title>
+	<meta name="description" content="Simple Starter Description">
+
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/preview.jpg">
+
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="libs/components-font-awesome/css/all.min.css">
+	<link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="libs/fancybox/fancybox.min.css">
+	<link rel="stylesheet" href="libs/select2/select2.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/jquery/jquery-3.6.0.min.js" defer></script>
+	<script src="libs/swiper/swiper-bundle.min.js" defer></script>
+	<script src="libs/fancybox/fancybox.umd.js" defer></script>
+	<script src="libs/select2/select2.min.js" defer></script>
+	<script src="js/common.js" defer></script>
+
+</head>
+
+<body>
+
+	<main>
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="h_widgets d-flex align-items-center">
+							<div class="h_widget d-flex align-items-center">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="Гранекс">
+								</a>
+								<div class="nav-container">
+									<nav class="main_nav">
+										<ul>
+											<li class="menu-item-has-children ">
+												<a href="#monuments" class="toggle-hover">Памятники</a>
+											</li>
+											<li class="menu-item-has-children">
+												<a href="#services" class="toggle-hover">Услуги</a>
+											</li>
+											<li class="menu-item-has-children">
+												<a href="#info" class="toggle-hover">Информация</a>
+												<ul class="sub-menu">
+													<li><a href="#">О нас</a></li>
+													<li><a href="#">Наши работы</a></li>
+													<li><a href="#">Вопросы - ответы</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="#">Контакты</a>
+											</li>
+										</ul>
+										<div class="h-widget d-flex d-lg-none flex-column">
+											<div class="h_widgets_contact">
+												<a href="tel:">8 (812) 606 79 95</a>
+												<div>Санкт-Петербург</div>
+											</div>
+											<a href="" class="btn btn-transparent contact">Задать вопрос</a>
+										</div>
+									</nav>
+								</div>
+							</div>
+							<div class="h-widget d-none align-items-center d-lg-flex">
+								<div class="h_widgets_contact">
+									<a href="tel:">8 (812) 606 79 95</a>
+									<div>Санкт-Петербург</div>
+								</div>
+								<a href="" class="btn btn-transparent contact">Задать вопрос</a>
+							</div>
+							<div class="h-widget d-block d-lg-none">
+								<div class="toggle-button">
+									<span></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<aside class="hero_mnu" id="monuments">
+			<div class="container">
+				<div class="back-btn"><i class="fa-solid fa-arrow-left-long"></i>Назад</div>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Простые</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Фигурные</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Вертикальные</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Комплексы</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Двойные</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Горизонтальные</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Эксклюзивные</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Мусульманские</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/monument.png" alt="Простые памятники">
+					</div>
+					<div>Православные</div>
+				</a>
+			</div>
+		</aside>
+		<aside class="hero_mnu" id="services">
+			<div class="container">
+				<div class="back-btn"><i class="fa-solid fa-arrow-left-long"></i>Назад</div>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/service.jpg" alt="Простые памятники">
+					</div>
+					<div>Дизайн-проект 3D и макеты 2D</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/service.jpg" alt="Простые памятники">
+					</div>
+					<div>Хранение до востребования</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/service.jpg" alt="Простые памятники">
+					</div>
+					<div>Доставка</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/service.jpg" alt="Простые памятники">
+					</div>
+					<div>Установка памятника</div>
+				</a>
+				<a class="hero_mnu_item" href="#">
+					<div class="hero_mnu_item_back">
+						<img src="images/service.jpg" alt="Простые памятники">
+					</div>
+					<div>Гравировка</div>
+				</a>
+			</div>
+		</aside>
+		<section class="section-before section-center">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-8">
+						<div class="text-wiget-page text-center">
+							<h2 class="section-title lg-pr-20">ПАМЯТНИКИ И НАДГРОБИЯ РАЗЛИЧНЫХ ФОРМ И ВИДОВ</h3>
+								<div class="text-widget">
+									<p>Широкий ассортимент изделий – от простых до эксклюзивных. </p>
+									<a href="#" class="btn contact mt-lg-4">Заявка на консультацию</a>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-gray union">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<h3 class="section-title-alt lg-pr-20">Каталог памятников</h3>
+						<div class="text-widget">
+							<p>Памятники и надгробия играют важную роль в сохранении памяти об ушедших, помогая близким выразить свои чувства потери и создать место для почитания и воспоминаний. Кроме того, памятники служат источником информации о прошлом, культуре и истории, помогая сохранить наследие и традиции для будущих поколений.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-full-background" style="background-image: url('./images/monuments.jpg');"></div>
+		</section>
+		<div class="page_filters">
+			<div class="container">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-lg-10 col-8">
+						<div class="page_filters_list d-flex">
+							<div class="active">Простые</div>
+							<div>Двойные</div>
+							<div>Комплексы</div>
+							<div>Эксклюзивные</div>
+							<div>Мусульманские</div>
+						</div>
+					</div>
+					<div class="col-4 col-lg-2">
+						<div class="page_filters_dropdown">
+							<select name="" id="" class="js-select-single">
+								<option value="" selected>Все цвета</option>
+								<option value="">Черный</option>
+								<option value="">Красный</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<h2 class="section-title">
+							Простые памятники
+						</h2>
+					</div>
+					<div class="col-lg-6">
+						<div class="small-text">
+							<p>Памятники могут включать в себя небольшие стеллы, плиты или кресты, установленные на могилах или местах захоронения. Они могут быть изготовлены из различных цветов гранитного материала, также могут иметь разные украшения или надписи, чтобы отразить личность или важность ушедшего. Простые формы памятников могут быть скромными и ненавязчивыми, но они все равно играют важную роль в сохранении памяти и уважении к ушедшим.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row gy-4 mt-4">
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+							<a href="#" class="watch-3d">Посмотреть в 3D</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+							<a href="#" class="watch-3d">Посмотреть в 3D</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+						<div class="catalog_card">
+							<a href="#" class="catalog_card_inner">
+								<div class="catalog_card_outer">
+									<img src="images/monument.png" loading="lazy">
+								</div>
+								<p>Гранит светло-серый №119</p>
+								<div class="four">от 27 700 руб.</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center mt-lg-64">
+					<div class="col text-center">
+						<a href="#" class="btn btn-white show-more">Показать еще</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-accent bg-before bg-after">
+			<div class="container">
+				<div class="row gy-4">
+					<div class="col-lg-6">
+						<h3 class="section-title-alt white lg-pr-20">Консультация поможет определиться с видом изделеия под ваш
+							бюджет – оставляйте заявку и наш специалист перезвонит вам!</h3>
+					</div>
+					<div class="col-lg-6">
+						<form class="form">
+							<div class="form-group">
+								<input type="text" id="fname" name="fname" required placeholder="">
+								<label for="fname">Ваше имя</label>
+							</div>
+							<div class="form-group">
+								<input type="text" id="phone" name="phone" required placeholder="">
+								<label for="phone">Номер телефона</label>
+							</div>
+							<div
+								class="d-flex justify-content-lg-between flex-lg-row flex-lg-row flex-column-reverse align-items-lg-center">
+								<p class="white mb-0">Нажимая кнопку "Отправить", вы соглашаетесь с <a href="/privacy-policy"
+										target="_blank">Политикой обработки персональных данных</a></p>
+								<button type="submit" class="btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row d-lg-flex justify-content-center align-items-center">
+					<div class="col-12 col-lg-10">
+						<h2 class="section-title">Наши реализованные работы</h2>
+					</div>
+					<div class="col">
+						<div class="slider_nav d-none d-lg-flex justify-content-end align-items-center">
+							<div class="prev_btn">
+								<img src="images/arrow-up-left.svg" alt="">
+							</div>
+							<div class="next_btn">
+								<img src="images/arrow-up-right.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="categories_slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="images/project1.png" class="project_slide" data-fancybox="gallery">
+									<img src="images/project1.png" alt="">
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="images/project2.png" class="project_slide" data-fancybox="gallery">
+									<img src="images/project2.png" alt="">
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="images/project3.png" class="project_slide" data-fancybox="gallery">
+									<img src="images/project3.png" alt="">
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="images/project1.png" class="project_slide" data-fancybox="gallery">
+									<img src="images/project1.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-0">
+			<div class="container">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-lg-9 text-center">
+						<h3 class="section-title-alt quote">Мы тщательно выбираем материал и проверяем его на качество
+							происхождения, а все наши мастера имеют опыт более 10 лет!
+							<br><span>Поэтому даём гарантию на гранит 25 лет и 3 года на установку.</span>
+						</h3>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="p-0">
+			<div class="container bg-dark alt-before">
+				<div class="row justify-content-center">
+					<div class="col-xl-6 col-lg-9">
+						<form class="form alt-form padding">
+							<div class="text-center md-text-left white">
+								<h2 class="section-title">Консультация поможет определиться с видом изделеия под ваш бюджет</h2>
+								<p>Оставляйте заявку и наш специалист перезвонит вам!</p>
+							</div>
+							<div class="form-group">
+								<input type="text" name="fname" id="fname2" required placeholder="">
+								<label for="fname2">Ваше имя</label>
+							</div>
+							<div class="form-group">
+								<input type="text" class="phone" name="phone" id="phone2" required placeholder="">
+								<label for="phone2">Номер телефона</label>
+							</div>
+							<div
+								class="d-flex justify-content-lg-between flex-lg-row flex-lg-row flex-column-reverse align-items-lg-center">
+								<p class="white mb-0">Нажимая кнопку "Отправить", вы соглашаетесь с <a href="/privacy-policy"
+										target="_blank">Политикой обработки персональных данных</a></p>
+								<button type="submit" class="btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row gy-4">
+					<div class="col-lg-3">
+						<h2 class="section-title mb-sm-16 mb-20">Как мы работаем</h2>
+						<p class="small-text">Мы позаботимся, чтобы результат полностью соответствовал вашим ожиданиям.</p>
+					</div>
+					<div class="col-lg-9">
+						<div class="row gy-4 "><!-- line-columns -->
+							<div class="col-lg-4">
+								<div class="service_card">
+									<div class="service_card_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<g clip-path="url(#clip0_283_5865)">
+												<path
+													d="M10.5 15.1351L7.8075 12.4426L6.75 13.5001L10.5 17.2501L17.25 10.5001L16.1925 9.43506L10.5 15.1351Z"
+													fill="#402020" />
+												<path
+													d="M18.75 3.75H16.5V3C16.5 2.60218 16.342 2.22064 16.0607 1.93934C15.7794 1.65804 15.3978 1.5 15 1.5H9C8.60218 1.5 8.22064 1.65804 7.93934 1.93934C7.65804 2.22064 7.5 2.60218 7.5 3V3.75H5.25C4.85218 3.75 4.47064 3.90804 4.18934 4.18934C3.90804 4.47064 3.75 4.85218 3.75 5.25V21C3.75 21.3978 3.90804 21.7794 4.18934 22.0607C4.47064 22.342 4.85218 22.5 5.25 22.5H18.75C19.1478 22.5 19.5294 22.342 19.8107 22.0607C20.092 21.7794 20.25 21.3978 20.25 21V5.25C20.25 4.85218 20.092 4.47064 19.8107 4.18934C19.5294 3.90804 19.1478 3.75 18.75 3.75ZM9 3H15V6H9V3ZM18.75 21H5.25V5.25H7.5V7.5H16.5V5.25H18.75V21Z"
+													fill="#402020" />
+											</g>
+											<defs>
+												<clipPath id="clip0_283_5865">
+													<rect width="24" height="24" fill="#402020" />
+												</clipPath>
+											</defs>
+										</svg>
+									</div>
+									<h4>Заявка</h4>
+									<p>Оставляйте заявку на сайте. Наш специалист подробно расскажет как правильно подготовиться к покупке
+										памятника, опишет все нюансы и подготовит расчёты. Смету отправим вам на почту или мессенджер.</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service_card">
+									<div class="service_card_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<g clip-path="url(#clip0_283_5881)">
+												<path d="M15.75 18H8.25V19.5H15.75V18Z" fill="#402020" />
+												<path d="M14.25 21H9.75V22.5H14.25V21Z" fill="#402020" />
+												<path
+													d="M12 1.5C10.0109 1.5 8.10323 2.29018 6.6967 3.6967C5.29018 5.10322 4.5 7.01088 4.5 9C4.44928 10.09 4.65808 11.1765 5.10923 12.17C5.56037 13.1636 6.24096 14.0358 7.095 14.715C7.845 15.4125 8.25 15.81 8.25 16.5H9.75C9.75 15.12 8.9175 14.3475 8.1075 13.605C7.40652 13.0682 6.84786 12.3677 6.48044 11.5649C6.11302 10.7621 5.94806 9.88138 6 9C6 7.4087 6.63214 5.88258 7.75736 4.75736C8.88258 3.63214 10.4087 3 12 3C13.5913 3 15.1174 3.63214 16.2426 4.75736C17.3679 5.88258 18 7.4087 18 9C18.0511 9.88203 17.885 10.7631 17.5162 11.566C17.1475 12.3689 16.5874 13.069 15.885 13.605C15.0825 14.355 14.25 15.105 14.25 16.5H15.75C15.75 15.81 16.1475 15.4125 16.905 14.7075C17.7585 14.0295 18.4387 13.1585 18.8899 12.1663C19.341 11.174 19.5501 10.0888 19.5 9C19.5 8.01509 19.306 7.03982 18.9291 6.12987C18.5522 5.21993 17.9997 4.39314 17.3033 3.6967C16.6069 3.00026 15.7801 2.44781 14.8701 2.0709C13.9602 1.69399 12.9849 1.5 12 1.5Z"
+													fill="#402020" />
+											</g>
+											<defs>
+												<clipPath id="clip0_283_5881">
+													<rect width="24" height="24" fill="#402020" />
+												</clipPath>
+											</defs>
+										</svg>
+									</div>
+									<h4>Разработка дизайн-проекта</h4>
+									<p>Дизайнер присылает несколько вариантов эскизов оформления памятника с гравировкой в течение 1 дня.
+										Корректируем детали оформления. Оставляем лучший вариант.</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service_card">
+									<div class="service_card_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<g clip-path="url(#clip0_283_5843)">
+												<path
+													d="M16.5 20.3847L14.5575 18.4423L13.5 19.4999L16.5 22.4999L22.5 16.4999L21.4424 15.4424L16.5 20.3847Z"
+													fill="#402020" />
+												<path d="M12 12.75H6.75V14.25H12V12.75Z" fill="#402020" />
+												<path d="M15.75 9H6.75V10.5H15.75V9Z" fill="#402020" />
+												<path d="M15.75 5.25H6.75V6.75H15.75V5.25Z" fill="#402020" />
+												<path
+													d="M12 22.5H4.5C3.67275 22.5 3 21.8271 3 21V3C3 2.1729 3.67275 1.5 4.5 1.5H18C18.8273 1.5 19.5 2.1729 19.5 3V14.25H18V3H4.5V21H12V22.5Z"
+													fill="#402020" />
+											</g>
+											<defs>
+												<clipPath id="clip0_283_5843">
+													<rect width="24" height="24" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</div>
+									<h4>Подписываем договор</h4>
+									<p>Предлагаем несколько вариантов для подписания договора: личная встреча в офисе по удобному для вас
+										адресу или полное оформление документов онлайн. На памятник действует гарантия. По окончании вы
+										получаете чек и акт выполненных работ.</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service_card">
+									<div class="service_card_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<g clip-path="url(#clip0_283_5819)">
+												<path
+													d="M21.75 18.75H20.25V17.25H21V14.25H18V15H16.5V13.5C16.5 13.3011 16.579 13.1103 16.7197 12.9697C16.8603 12.829 17.0511 12.75 17.25 12.75H21.75C21.9489 12.75 22.1397 12.829 22.2803 12.9697C22.421 13.1103 22.5 13.3011 22.5 13.5V18C22.5 18.1989 22.421 18.3897 22.2803 18.5303C22.1397 18.671 21.9489 18.75 21.75 18.75Z"
+													fill="#402020" />
+												<path
+													d="M18 22.5H13.5C13.3011 22.5 13.1103 22.421 12.9697 22.2803C12.829 22.1397 12.75 21.9489 12.75 21.75V17.25C12.75 17.0511 12.829 16.8603 12.9697 16.7197C13.1103 16.579 13.3011 16.5 13.5 16.5H18C18.1989 16.5 18.3897 16.579 18.5303 16.7197C18.671 16.8603 18.75 17.0511 18.75 17.25V21.75C18.75 21.9489 18.671 22.1397 18.5303 22.2803C18.3897 22.421 18.1989 22.5 18 22.5ZM14.25 21H17.25V18H14.25V21Z"
+													fill="#402020" />
+												<path
+													d="M11.25 14.8936C10.708 14.7524 10.2164 14.4621 9.8311 14.0555C9.44581 13.649 9.18223 13.1425 9.07031 12.5937C8.95838 12.0449 9.0026 11.4757 9.19793 10.9508C9.39326 10.4258 9.73188 9.96616 10.1753 9.624C10.6188 9.28184 11.1493 9.07089 11.7066 9.0151C12.264 8.95931 12.8258 9.06092 13.3282 9.30839C13.8307 9.55587 14.2537 9.93928 14.5492 10.4151C14.8448 10.8909 15.0009 11.4401 15 12.0002H16.5C16.5009 11.142 16.2563 10.3015 15.7953 9.57776C15.3342 8.85401 14.6758 8.27718 13.8977 7.9153C13.1195 7.55342 12.2542 7.42157 11.4036 7.5353C10.553 7.64904 9.75271 8.00361 9.097 8.5572C8.4413 9.1108 7.95757 9.84035 7.70283 10.6598C7.4481 11.4793 7.43299 12.3545 7.65928 13.1823C7.88558 14.01 8.34384 14.7559 8.98005 15.3318C9.61625 15.9077 10.4039 16.2896 11.25 16.4327V14.8936Z"
+													fill="#402020" />
+												<path
+													d="M21.6674 10.1625L19.9349 11.685L18.8699 10.62L20.6774 9.03L18.9074 5.97L16.3274 6.84C15.7231 6.33696 15.0386 5.93892 14.3024 5.6625L13.7699 3H10.2299L9.69742 5.6625C8.95538 5.9312 8.26713 6.32993 7.66492 6.84L5.09242 5.97L3.32242 9.03L5.36242 10.8225C5.22366 11.5988 5.22366 12.3937 5.36242 13.17L3.32242 14.97L5.09242 18.03L7.67242 17.16C8.27678 17.663 8.96129 18.0611 9.69742 18.3375L10.2299 21H11.2499V22.5H10.2299C9.8831 22.4996 9.54712 22.3791 9.27912 22.159C9.01112 21.9388 8.82765 21.6326 8.75992 21.2925L8.37742 19.4025C8.03787 19.2369 7.70965 19.049 7.39492 18.84L5.57242 19.455C5.41745 19.5054 5.2554 19.5308 5.09242 19.53C4.82897 19.5318 4.5698 19.4633 4.34171 19.3314C4.11361 19.1996 3.92485 19.0092 3.79492 18.78L2.02492 15.72C1.84987 15.4193 1.78481 15.067 1.84091 14.7236C1.89701 14.3801 2.07077 14.0669 2.33242 13.8375L3.77242 12.5775C3.75742 12.3825 3.74992 12.195 3.74992 12C3.74992 11.805 3.76492 11.6175 3.77992 11.43L2.33242 10.1625C2.07077 9.93309 1.89701 9.61985 1.84091 9.27642C1.78481 8.93299 1.84987 8.58074 2.02492 8.28L3.79492 5.22C3.92485 4.9908 4.11361 4.80044 4.34171 4.66859C4.5698 4.53675 4.82897 4.46819 5.09242 4.47C5.2554 4.46925 5.41745 4.49457 5.57242 4.545L7.38742 5.16C7.70472 4.95098 8.03544 4.76307 8.37742 4.5975L8.75992 2.7075C8.82765 2.36735 9.01112 2.06117 9.27912 1.84103C9.54712 1.62089 9.8831 1.50038 10.2299 1.5H13.7699C14.1167 1.50038 14.4527 1.62089 14.7207 1.84103C14.9887 2.06117 15.1722 2.36735 15.2399 2.7075L15.6224 4.5975C15.962 4.76311 16.2902 4.95102 16.6049 5.16L18.4274 4.545C18.5824 4.49457 18.7444 4.46925 18.9074 4.47C19.1709 4.46819 19.43 4.53675 19.6581 4.66859C19.8862 4.80044 20.075 4.9908 20.2049 5.22L21.9749 8.28C22.15 8.58074 22.215 8.93299 22.1589 9.27642C22.1028 9.61985 21.9291 9.93309 21.6674 10.1625Z"
+													fill="#402020" />
+											</g>
+											<defs>
+												<clipPath id="clip0_283_5819">
+													<rect width="24" height="24" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</div>
+									<h4>Изготовление памятника</h4>
+									<p>Отправляем заявку на производство. Над изготовлением памятника трудятся резчики. Срок от 10 до 14
+										дней. Памятник проходит систему контроля, чтобы избежать ошибок.</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service_card">
+									<div class="service_card_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<g clip-path="url(#clip0_283_5836)">
+												<path
+													d="M18.75 9H15V10.5H18.75C18.9489 10.5002 19.1395 10.5792 19.2802 10.7198C19.4208 10.8605 19.4998 11.0511 19.5 11.25V12.75H16.5C15.9035 12.7507 15.3315 12.9879 14.9097 13.4097C14.4879 13.8315 14.2507 14.4035 14.25 15V15.75C14.2507 16.3465 14.4879 16.9185 14.9097 17.3403C15.3315 17.7621 15.9035 17.9993 16.5 18H21V11.25C20.9993 10.6535 20.7621 10.0815 20.3403 9.65973C19.9185 9.23792 19.3465 9.00066 18.75 9ZM16.5 16.5C16.3011 16.4998 16.1105 16.4208 15.9698 16.2802C15.8292 16.1395 15.7502 15.9489 15.75 15.75V15C15.7502 14.8011 15.8292 14.6105 15.9698 14.4698C16.1105 14.3292 16.3011 14.2502 16.5 14.25H19.5V16.5H16.5Z"
+													fill="#402020" />
+												<path
+													d="M12 18H13.5L9 5.25H7.5L3 18H4.5L5.7702 14.25H10.7303L12 18ZM6.27833 12.75L8.15077 7.22167L8.35087 7.22205L10.2225 12.75H6.27833Z"
+													fill="#402020" />
+											</g>
+											<defs>
+												<clipPath id="clip0_283_5836">
+													<rect width="24" height="24" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</div>
+									<h4>Делаем гравировку</h4>
+									<p>Памятник гравируется станком или вручную. Еще раз все проверяем. Отправляем фото готового памятника
+										со всех ракурсов для оценки качества выполнения.</p>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="service_card">
+									<div class="service_card_icon">
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+											<g clip-path="url(#clip0_283_5853)">
+												<path
+													d="M22.44 12.4575L20.19 7.2075C20.1326 7.07194 20.0365 6.95627 19.9138 6.87492C19.7911 6.79356 19.6472 6.75012 19.5 6.75H17.25V5.25C17.25 5.05109 17.171 4.86032 17.0303 4.71967C16.8897 4.57902 16.6989 4.5 16.5 4.5H2.25C2.05109 4.5 1.86032 4.57902 1.71967 4.71967C1.57902 4.86032 1.5 5.05109 1.5 5.25V18C1.5 18.1989 1.57902 18.3897 1.71967 18.5303C1.86032 18.671 2.05109 18.75 2.25 18.75H3.855C4.02771 19.3855 4.40475 19.9466 4.92795 20.3465C5.45114 20.7465 6.09142 20.9632 6.75 20.9632C7.40858 20.9632 8.04886 20.7465 8.57205 20.3465C9.09525 19.9466 9.47229 19.3855 9.645 18.75H14.355C14.5277 19.3855 14.9048 19.9466 15.4279 20.3465C15.9511 20.7465 16.5914 20.9632 17.25 20.9632C17.9086 20.9632 18.5489 20.7465 19.0721 20.3465C19.5952 19.9466 19.9723 19.3855 20.145 18.75H21.75C21.9489 18.75 22.1397 18.671 22.2803 18.5303C22.421 18.3897 22.5 18.1989 22.5 18V12.75C22.4998 12.6495 22.4794 12.55 22.44 12.4575ZM17.25 8.25H19.005L20.61 12H17.25V8.25ZM6.75 19.5C6.45333 19.5 6.16332 19.412 5.91665 19.2472C5.66997 19.0824 5.47771 18.8481 5.36418 18.574C5.25065 18.2999 5.22094 17.9983 5.27882 17.7074C5.3367 17.4164 5.47956 17.1491 5.68934 16.9393C5.89912 16.7296 6.16639 16.5867 6.45736 16.5288C6.74834 16.4709 7.04994 16.5006 7.32403 16.6142C7.59811 16.7277 7.83238 16.92 7.9972 17.1666C8.16203 17.4133 8.25 17.7033 8.25 18C8.25 18.3978 8.09196 18.7794 7.81066 19.0607C7.52936 19.342 7.14782 19.5 6.75 19.5ZM14.355 17.25H9.645C9.47229 16.6145 9.09525 16.0534 8.57205 15.6534C8.04886 15.2535 7.40858 15.0367 6.75 15.0367C6.09142 15.0367 5.45114 15.2535 4.92795 15.6534C4.40475 16.0534 4.02771 16.6145 3.855 17.25H3V6H15.75V15.42C15.4085 15.6182 15.1095 15.8819 14.8701 16.1959C14.6307 16.51 14.4556 16.8682 14.355 17.25ZM17.25 19.5C16.9533 19.5 16.6633 19.412 16.4166 19.2472C16.17 19.0824 15.9777 18.8481 15.8642 18.574C15.7506 18.2999 15.7209 17.9983 15.7788 17.7074C15.8367 17.4164 15.9796 17.1491 16.1893 16.9393C16.3991 16.7296 16.6664 16.5867 16.9574 16.5288C17.2483 16.4709 17.5499 16.5006 17.824 16.6142C18.0981 16.7277 18.3324 16.92 18.4972 17.1666C18.662 17.4133 18.75 17.7033 18.75 18C18.75 18.3978 18.592 18.7794 18.3107 19.0607C18.0294 19.342 17.6478 19.5 17.25 19.5ZM21 17.25H20.145C19.9791 16.6076 19.6051 16.0384 19.0812 15.6313C18.5574 15.2242 17.9134 15.0022 17.25 15V13.5H21V17.25Z"
+													fill="#402020" />
+											</g>
+											<defs>
+												<clipPath id="clip0_283_5853">
+													<rect width="24" height="24" fill="white" />
+												</clipPath>
+											</defs>
+										</svg>
+									</div>
+									<h4>Доставка и установка</h4>
+									<p>Предлагаем несколько вариантов для подписания договора: личная встреча в офисе по удобному для вас
+										адресу или полное оформление документов онлайн. На памятник действует гарантия. По окончании вы
+										получаете чек и акт выполненных работ.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="pt-0">
+			<div class="container">
+				<div class="row d-lg-flex justify-content-center align-items-center">
+					<div class="col-12 col-lg-10">
+						<h2 class="section-title">Отзывы</h2>
+					</div>
+					<div class="col">
+						<div class="slider_nav d-none d-lg-flex justify-content-end align-items-center">
+							<div class="prev_btn">
+								<img src="images/arrow-up-left.svg" alt="">
+							</div>
+							<div class="next_btn">
+								<img src="images/arrow-up-right.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="testimonials_slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="testimonial_card">
+									<img src="images/testimonial.jpg" loading="lazy">
+									<div class="small-text">Марина Семеновна</div>
+									<p>Спасибо компании Гранекс за быстрое изготовление, доставку и установку красивого памятника в Волгоград. Всем рекомендую Гранекс!</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial_card">
+									<img src="images/testimonial.jpg" loading="lazy">
+									<div class="small-text">Марина Семеновна</div>
+									<p>Спасибо компании Гранекс за быстрое изготовление, доставку и установку красивого памятника в Волгоград. Всем рекомендую Гранекс!</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial_card">
+									<img src="images/testimonial.jpg" loading="lazy">
+									<div class="small-text">Марина Семеновна</div>
+									<p>Спасибо компании Гранекс за быстрое изготовление, доставку и установку красивого памятника в Волгоград. Всем рекомендую Гранекс!</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="testimonial_card">
+									<img src="images/testimonial.jpg" loading="lazy">
+									<div class="small-text">Марина Семеновна</div>
+									<p>Спасибо компании Гранекс за быстрое изготовление, доставку и установку красивого памятника в Волгоград. Всем рекомендую Гранекс!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="p-0">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="eternal_reviews d-flex justify-content-between">
+							<div class="eternal_reviews_item d-flex d-lg-block flex-column flex-lg-row align-items-center">
+								<div class="review_icon">
+									<img src="images/avito.svg" loading="lazy">
+								</div>
+								<div class="d-flex review_meta align-items-center flex-column flex-lg-row">
+									<div class="one">5.0</div>
+									<div class="review_meta_rate d-lg-flex d-none align-items-center">
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<span>На основании 1 оценки</span>
+								</div>
+							</div>
+							<div class="eternal_reviews_item d-flex d-lg-block flex-column flex-lg-row align-items-center">
+								<div class="review_icon">
+									<img src="images/yandex.svg" loading="lazy">
+								</div>
+								<div class="d-flex review_meta align-items-center flex-column flex-lg-row">
+									<div class="one">4.9</div>
+									<div class="review_meta_rate d-lg-flex d-none align-items-center">
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+										<div></div>
+									</div>
+									<span>На основании 1 оценки</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="section-title">Вопросы/ответы</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="faq_wrapper">
+						<div class="faq_item">
+							<div class="four">Какие преимущества имеют памятники и надгробия из гранита?</div>
+							<p>Процесс изготовления начинается с выбора подходящего куска гранита, который затем обрабатывается и формируется в соответствии с дизайном памятника или надгробия. Затем на граните выполняется гравировка или наносится специальное изображение или текст, которые могут быть выбраны заказчиком.
+								После этого памятник или надгробие полируются и обрабатываются специальными средствами для придания дополнительной защиты от внешних воздействий.</p>
+						</div>
+						<div class="faq_item">
+							<div class="four">Какие преимущества имеют памятники и надгробия из гранита?</div>
+							<p>Процесс изготовления начинается с выбора подходящего куска гранита, который затем обрабатывается и формируется в соответствии с дизайном памятника или надгробия. Затем на граните выполняется гравировка или наносится специальное изображение или текст, которые могут быть выбраны заказчиком.
+								После этого памятник или надгробие полируются и обрабатываются специальными средствами для придания дополнительной защиты от внешних воздействий.</p>
+						</div>
+						<div class="faq_item">
+							<div class="four">Какие преимущества имеют памятники и надгробия из гранита?</div>
+							<p>Процесс изготовления начинается с выбора подходящего куска гранита, который затем обрабатывается и формируется в соответствии с дизайном памятника или надгробия. Затем на граните выполняется гравировка или наносится специальное изображение или текст, которые могут быть выбраны заказчиком.
+								После этого памятник или надгробие полируются и обрабатываются специальными средствами для придания дополнительной защиты от внешних воздействий.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="bg-accent bg-before bg-after">
+			<div class="container">
+				<div class="row gy-4">
+					<div class="col-lg-6">
+						<h3 class="section-title-alt white lg-pr-20">Закажите <span>БЕСПЛАТНЫЙ</span>
+							макет памятника и вы увидите как он будет выглядеть до покупки</h3>
+					</div>
+					<div class="col-lg-6">
+						<form class="form">
+							<div class="form-group">
+								<input type="text" id="fname3" name="fname" required placeholder="">
+								<label for="fname3">Ваше имя</label>
+							</div>
+							<div class="form-group">
+								<input type="text" id="phone3" name="phone" required placeholder="">
+								<label for="phone3">Номер телефона</label>
+							</div>
+							<div
+								class="d-flex justify-content-lg-between flex-lg-row flex-lg-row flex-column-reverse align-items-lg-center">
+								<p class="white mb-0">Нажимая кнопку "Отправить", вы соглашаетесь с <a href="/privacy-policy"
+										target="_blank">Политикой обработки персональных данных</a></p>
+								<button type="submit" class="btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row gy-5">
+					<div class="col-lg-12">
+						<div class="row gy-5">
+							<div class="col-12 col-lg">
+								<div class="f_widget d-flex flex-column justify-content-between ">
+									<div class="d-flex d-lg-block align-items-center ">
+										<a href="/" class="logo">
+											<img src="images/logo.svg" loading="lazy">
+										</a>
+										<div class="h_widgets_contact">
+											<a href="tel:">8 (812) 606 79 95</a>
+											<div>Санкт-Петербург</div>
+										</div>
+									</div>
+									<div class="copyright small-text d-none d-lg-block">
+										<span>© 2000 - 2023 Гранекс</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-lg">
+								<div class="f_widget">
+									<h4>Памятники</h4>
+									<ul>
+										<li><a href="#">Простые</a></li>
+										<li><a href="#">Двойные</a></li>
+										<li><a href="#">Комплексы</a></li>
+										<li><a href="#">Эксклюзивные</a></li>
+										<li><a href="#">Мусульманские</a></li>
+										<li class="all"><a href="#">Все памятники</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-6 col-lg">
+								<div class="f_widget">
+									<h4>Услуги</h4>
+									<ul>
+										<li><a href="#">Дизайн проект</a></li>
+										<li><a href="#">Хранение</a></li>
+										<li><a href="#">Доставка</a></li>
+										<li><a href="#">Установка памятника</a></li>
+										<li><a href="#">Гравировка</a></li>
+										<li class="all"><a href="#">Все услуги</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-6 col-lg">
+								<div class="f_widget">
+									<h4>Информация</h4>
+									<ul>
+										<li><a href="#">О компании</a></li>
+										<li><a href="#">Новости</a></li>
+										<li><a href="#">Наши работы</a></li>
+										<li><a href="#">Политика обработки персональных данных</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-6 col-lg">
+								<div class="f_widget">
+									<a href="#" class="btn btn-transparent">Личный кабинет</a>
+									<nav class="social">
+										<ul>
+											<li><a href="#"><i class="fa-brands fa-vk"></i></a></li>
+											<li><a href="#"><i class="fa-solid fa-paper-plane"></i></a></li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="popup for-contact">
+			<div class="popup-dialog">
+				<div class="popup-wrap">
+					<div class="btn-close">
+						<img src="images/cancel.svg">
+					</div>
+					<div>
+						<h3>Задать вопрос</h3>
+						<p>Остаьте свои контакты и мы вам перезвоним</p>
+					</div>
+					<form class="form popup-form">
+						<div class="form-group">
+							<input type="text" id="name-p" name="fname" required placeholder="">
+							<label for="name-p">Ваше имя</label>
+						</div>
+						<div class="form-group">
+							<input type="text" name="phone" placeholder="Телефон" id="phone-p" class="phone" required="">
+							<label for="phone-p">Ваше имя</label>
+						</div>
+							<p>Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</p>
+							<button class="btn">Связаться с нами</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</main>
+
+</body>
+
+</html>
