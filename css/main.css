@@ -28,7 +28,7 @@
 
 /* GENERAL CSS SETTINGS */
 
-::placeholder { color: #fff; }
+::placeholder { color: #fff;opacity: 0;visibility: hidden; }
 ::selection { background-color: var(--accent); color: #fff; }
 input, textarea { outline: none; }
 input:focus:required:invalid, textarea:focus:required:invalid { border-color: var(--yellow); }
@@ -295,7 +295,7 @@ header nav ul li.menu-item-has-children > a{
 }
 header nav ul li.menu-item-has-children > a::after {
 	content: '';
-	background: url('../images/chevron-down.svg') no-repeat;
+	background: url('../images/chevron-down-white.svg') no-repeat;
 	background-position: center center;
 	background-size: contain;
 	position: absolute;
@@ -420,10 +420,12 @@ aside{
 	transform: translateY(-200%);
 	z-index: 6;
 	opacity: 0;
+	visibility: hidden;
 }
 aside.active{
 	transform: translateY(0);
 	opacity: 1;
+	visibility: visible;
 }
 aside > *{
 	display: grid;
@@ -978,7 +980,20 @@ footer{
 	opacity: 0.8;
 	color: #fff;
 }
-/*footer*/
+.all a{position: relative;}
+.all a::after{
+	content: '';
+	background: url(../images/arrow-right.svg) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-left: 10px;
+}
+/*end footer*/
 /*page content*/
 .page-content{
 	padding: 96px 0 128px 0;
@@ -1418,6 +1433,9 @@ body .select2-container--default .select2-results__option--highlighted.select2-r
 }
 .form-group input:focus~label, .form-group input:not(:placeholder-shown)~label {
 	transform: scale(.85) translateY(-2.1rem) translateX(0rem);
+	color: var(--yellow);
+}
+.popup .form-group input:focus~label,.popup .form-group input:not(:placeholder-shown)~label {
 	color: #0F172A;
 }
 .popup p{
